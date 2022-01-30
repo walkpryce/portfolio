@@ -406,7 +406,7 @@
 
 .pf-hero_footer-image {
   display: block;
-  min-width: 100%;
+  width: 100%;
   margin-top: 96px;
 }
 
