@@ -1,3 +1,26 @@
+@font-face {
+  font-family: 'Nolde';
+  src: url('../fonts/Nolde-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Nolde outline';
+  src: url('../fonts/Nolde-Outline.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.pf-block, .pf-hero_grid_block {
+  transition: 0.2s;
+}
+
+.pf-block:hover, .pf-hero_grid_block:hover {
+  opacity: 70%;
+}
+
 .layout-grid {
   display: -ms-grid;
   display: grid;
@@ -504,6 +527,7 @@
   top: auto;
   right: -20px;
   bottom: -20px;
+  width: 400px;
 }
 
 .footer-man {
@@ -628,6 +652,9 @@
   .footer-man {
     max-width: 300px;
   }
+  .interface-thumbnail {
+    width: 220px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -731,6 +758,9 @@
   .footer-man {
     max-width: 256px;
   }
+  .interface-thumbnail {
+    width: 172px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -816,27 +846,8 @@
   .custom-thumbnail {
     max-width: 200px;
   }
+  .interface-thumbnail {
+    width: 200px;
+  }
 }
 
-@font-face {
-  font-family: 'Nolde';
-  src: url('../fonts/Nolde-Regular.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Nolde outline';
-  src: url('../fonts/Nolde-Outline.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-.pf-block, .pf-hero_grid_block {
-  transition: 0.2s;
-}
-
-.pf-block:hover, .pf-hero_grid_block:hover {
-  opacity: 70%;
-}
