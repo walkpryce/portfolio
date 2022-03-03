@@ -68,31 +68,7 @@ h6 {
   line-height: 18px;
   margin-top: 10px;
 }
-p {
-  margin-top: 0;
-  margin-bottom: 10px;
-}
-blockquote {
-  margin: 0 0 10px 0;
-  padding: 10px 20px;
-  border-left: 5px solid #E2E2E2;
-  font-size: 18px;
-  line-height: 22px;
-}
-figure {
-  margin: 0;
-  margin-bottom: 10px;
-}
-figcaption {
-  margin-top: 5px;
-  text-align: center;
-}
-ul,
-ol {
-  margin-top: 0px;
-  margin-bottom: 10px;
-  padding-left: 40px;
-}
+
 
 .pf-block, .pf-hero_grid_block {
   transition: 0.2s;
@@ -225,7 +201,7 @@ ol {
 }
 
 .about {
-  max-width: 882px;
+  max-width: 720px;
   margin: 32px auto 128px;
 }
 
@@ -250,10 +226,10 @@ ol {
 
 .about-p {
   font-family: Inter, sans-serif;
-  font-size: 34px;
-  line-height: 38px;
-  font-weight: 600;
-  letter-spacing: -0.7px;
+  font-size: 26px;
+  line-height: 32px;
+  font-weight: 500;
+  letter-spacing: -0.53px;
 }
 
 .portfolio {
@@ -322,10 +298,10 @@ ol {
   -ms-flex-order: 0;
   order: 0;
   font-family: Inter, sans-serif;
-  font-size: 30px;
+  font-size: 28px;
   line-height: 34px;
   font-weight: 500;
-  letter-spacing: -0.64px;
+  letter-spacing: -0.59px;
   white-space: normal;
   color: #fff;
 }
@@ -404,8 +380,8 @@ ol {
   margin-right: auto;
   margin-left: auto;
   font-family: Inter, sans-serif;
-  font-size: 64px;
-  line-height: 64px;
+  font-size: 56px;
+  line-height: 56px;
   font-weight: 600;
   text-align: center;
   letter-spacing: -1.43px;
@@ -659,13 +635,19 @@ ol {
 
   .title {
     width: auto;
-    font-size: 56px;
-    line-height: 58px;
+    font-size: 52px;
+    line-height: 54px;
+    width: 640px;
   }
-
   .about-p {
-    font-size: 28px;
-    line-height: 34px;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: -0.4px;
+  }
+  
+  .about {
+    width: 640px;
+    margin-bottom: 96px;
   }
 
   .pf-grid {
@@ -682,7 +664,7 @@ ol {
 
   .pf-title {
     font-size: 20px;
-    line-height: 25px;
+    line-height: 24px;
     letter-spacing: -0.33px;
   }
 
@@ -692,9 +674,9 @@ ol {
 
   .pf-hero-h1 {
     max-width: 720px;
-    font-size: 40px;
-    line-height: 42px;
-    letter-spacing: -0.89px;
+    font-size: 36px;
+    line-height: 38px;
+    letter-spacing: -0.79px;
   }
 
   .thumbnail-image-of-pf-to-bottom {
@@ -758,13 +740,20 @@ ol {
   }
 
   .about {
+    width: auto;
     margin-top: 24px;
     margin-bottom: 96px;
+  }
+  .about-p {
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.3px;
   }
 
   .title {
     font-size: 40px;
     line-height: 42px;
+    width: auto;
   }
 
   .about-p {
@@ -871,11 +860,14 @@ ol {
   .title {
     font-size: 32px;
     line-height: 34px;
+    width: auto;
   }
-
+  .about {
+    margin-bottom: 72px;
+  }
   .about-p {
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 16px;
+    line-height: 20px;
     letter-spacing: -0.26px;
   }
 
